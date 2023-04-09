@@ -93,7 +93,3 @@ render={({ field: { onChange, value} }) => (
 ```
 ![Screen_Recording_2023-04-09_at_6_23_44_PM_AdobeExpress](https://user-images.githubusercontent.com/83122437/230777475-493cc099-e0e8-4547-b3cb-29c463e4b265.gif)
 
-
-https://user-images.githubusercontent.com/83122437/230779334-7ea45334-c408-4e54-9a2d-bdb77fe1e820.mov
-
-
