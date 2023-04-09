@@ -1,0 +1,211 @@
+.react-number-formatter-form{
+  border: 1px solid rgb(180, 179, 179);
+  border-radius: 4px;
+  display: flex;
+}
+
+.border-onfocus-react-number-formatter {
+  border-radius: 4px;
+  border: 1px solid rgb(0, 145, 255);
+  box-shadow: 0px 0px 0px 3px rgba(35, 150, 227, 0.3);
+  transition: ease;
+}
+.border-onfocus-react-number-formatter input  {
+  border: none;
+}
+.border-onfocus-react-number-formatter button {
+  border: none;
+}
+.react-number-formatter-input {
+    border: none;
+    outline: none;
+    font-size: inherit;
+    padding: 0.375rem 0.3rem;
+    color: rgb(52, 52, 52);
+    margin-left: -1px;
+    background: none;
+    width: 100%;
+  }
+
+  input::-webkit-input-placeholder {
+    opacity: 0.8;
+}
+  
+  .react-number-formatter-dropbtn {
+    border: none;
+    outline: none;
+    margin-right: 0px;
+    font-weight: 700;
+    color: #5a5959;
+    background: none;
+    font-size: inherit;
+    padding: 0.375rem 0.5rem;
+    cursor:pointer;
+  }
+  
+  .react-number-formatter-dropbtn:hover{
+    color: rgb(0, 145, 255);
+  }
+  .react-number-formatter-dropbtn:focus{
+    color: rgb(0, 145, 255);
+  }
+  .react-number-formatter-dropbtn:active{
+    color: rgb(0, 145, 255);
+  }
+  .onfocus-react-number-formatter-dropbtn{
+    color: rgb(0, 145, 255);
+  }
+  
+  .react-number-formatter-dropbtn-false {
+    pointer-events: none;
+  }
+  .react-number-formatter-dropbtn-false:hover {
+    color: #5a5959;
+  }
+  .react-number-formatter-dropbtn-false:focus{
+    color: #5a5959;
+  }
+  
+  .react-number-formatter-dropbtn-false {
+    pointer-events: none;
+  }
+
+.react-number-formatter-dropbtn-text {
+  display: flex;
+  pointer-events: none;
+  flex-direction: row;
+}
+
+.react-number-formatter-dropbtn-text p {
+  margin:0;
+}
+.react-number-formatter-arrow-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 2px;
+  font-size: small;
+  font-weight: 800;
+}
+
+.react-number-formatter-dropbtn-text .react-number-formatter-arrow-top {
+  line-height: 0;
+  margin-bottom: 2px;
+}
+
+.react-number-formatter-dropbtn-text .react-number-formatter-arrow-down {
+  line-height: 0;
+  margin-top: 2px;
+  transform: rotate(180deg);
+}
+
+.react-number-formatter-dropdown-parent {
+  position: relative;
+  display: inline-block;
+}
+
+.react-number-formatter-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #eeeeee;
+  min-width: 275px;
+  border: 2px solid rgb(227, 225, 225);
+  z-index: 20;
+  height:auto;
+  max-height:300px;
+  overflow: scroll;
+  overflow-x:hidden;
+  border-radius: 0 0 10px 10px;
+}
+.react-number-formatter-dropdown-content::-webkit-scrollbar {
+  width: 11px;
+  }
+  
+  .react-number-formatter-dropdown-content::-webkit-scrollbar-track {
+  background: #c5c5c5;
+  height: 20px;
+  border-radius:0 0 20px 0;
+  }
+  
+  .react-number-formatter-dropdown-content::-webkit-scrollbar-track:hover {
+  background: #dbdada;
+  }
+  
+  .react-number-formatter-dropdown-content::-webkit-scrollbar-thumb {
+  background: #787777;
+  border-radius: 50px;
+  height: 30px;
+  }
+  .react-number-formatter-dropdown-content::-webkit-scrollbar-thumb:hover {
+  background: #6d6d6d;
+  }
+
+  
+.react-number-formatter-dropdown-content-top {
+  height: 300px;
+  border-radius: 10px 10px 0px 0px;
+  bottom: 42px
+}
+
+.react-number-formatter-dropdown-content .react-number-formatter-option {
+  color: black !important;
+  padding: 10px 16px !important;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  font-size: inherit;
+  border-radius: 0% !important;
+  background: none;
+  border: none;
+  outline: none;
+  text-align: left;
+}
+
+.react-number-formatter-dropdown-content .react-number-formatter-option-no-search {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  border-radius: 0% !important;
+  font-size: inherit;
+  background: none;
+  border: none;
+  outline: none;
+  text-align: left;
+}
+
+.react-number-formatter-no-option {
+  text-align: center;
+  font-size: small;
+  opacity: 0.8;
+}
+
+.react-number-formatter-dropdown-content .react-number-formatter-dropdown-input-parent {
+  text-align: center;
+  border-bottom: 2px solid rgb(159, 159, 159);
+  position: sticky;
+  top: 0;
+  min-width: 275px;
+  max-width: inherit;
+  overflow: hidden;
+}
+
+.react-number-formatter-dropdown-input{
+  padding: 11px 16px;
+  font-size: inherit;
+  width: 100%;
+  border: none;
+  margin: 0px;
+  border-radius: 0px;
+  background-color: #d7d9db;
+  color: rgb(78, 77, 77);
+}
+.react-number-formatter-dropdown-input:focus{
+  outline: none;
+}
+
+.react-number-formatter-dropdown-content .react-number-formatter-option:hover {background-color: rgb(233, 232, 232)}
+.react-number-formatter-dropdown-content .react-number-formatter-option-no-search:hover {background-color: rgb(224, 222, 222)}
+
+.show {display:block;}
